@@ -1,3 +1,5 @@
 
 *.swp
 figures/.DS_Store
+notebooks/.ipynb_checkpoints/05_voxel_overlap_individual_subjects-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/05_voxel_overlap_individual_subjects_MSTRCHT-checkpoint.ipynb

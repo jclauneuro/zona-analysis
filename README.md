@@ -23,4 +23,5 @@ Jupyter Notebooks for the associated manuscript in `notebooks`:
   * `03_regions_of_interest.ipynb` -- Regions of Interest
   * `03_regions_of_interest_MSTRCHT.ipynb` -- Replication of ROI analysis in Maastricht dataset
   * `04_psa_analysis.ipynb` -- Point analysis in the posterior subthalamic area
-
+  * `05_voxel_overlap_individual_subjects.ipynb` -- Voxel Overlap for Individual Subjects
+  * `05_voxel_overlap_individual_subjects_MSTRCHT.ipynb` -- Replication in Maastricht dataset
