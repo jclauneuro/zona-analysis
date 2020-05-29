@@ -1,0 +1,288 @@
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-cZI_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-cZI_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-cZI_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-cZI_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-fct_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-fct_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-fct_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-fct_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-fl_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-fl_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-fl_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-fl_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ft_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ft_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ft_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ft_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-hfields_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-hfields_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-hfields_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-hfields_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-hf_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-hf_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-hf_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-hf_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ml_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ml_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ml_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ml_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-RN_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-RN_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-RN_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-RN_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-rZI_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-rZI_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-rZI_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-rZI_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-STN_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-STN_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-STN_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-STN_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ZI_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ZI_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ZI_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ZI_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ZIR_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ZIR_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-L_desc-ZIR_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-L_desc-ZIR_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-cZI_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-cZI_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-cZI_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-cZI_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-fct_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-fct_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-fct_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-fct_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-fl_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-fl_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-fl_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-fl_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ft_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ft_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ft_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ft_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-hfields_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-hfields_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-hfields_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-hfields_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-hf_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-hf_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-hf_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-hf_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ml_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ml_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ml_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ml_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-RN_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-RN_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-RN_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-RN_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-rZI_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-rZI_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-rZI_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-rZI_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-STN_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-STN_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-STN_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-STN_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ZI_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ZI_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ZI_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ZI_mask.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ZIR_mask.nii.gz -o ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ZIR_mask.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n NearestNeighbor
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//binary//sub-SNSX32NLin2020Asym_hemi-R_desc-ZIR_mask.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: NearestNeighborInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//output_snsx32_to_MNI2009b/SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/binary//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hemi-R_desc-ZIR_mask.nii.gz.nii.gz

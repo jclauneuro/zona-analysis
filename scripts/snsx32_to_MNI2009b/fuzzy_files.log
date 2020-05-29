@@ -1,0 +1,288 @@
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_RN_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_RN_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_RN_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_RN_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_RN_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_RN_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_RN_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_RN_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_STN_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_STN_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_STN_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_STN_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_STN_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_STN_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_STN_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_STN_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZIR_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZIR_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZIR_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZIR_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZIR_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZIR_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZIR_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZIR_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZI_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZI_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZI_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZI_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZI_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZI_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ZI_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ZI_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_cZI_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_cZI_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_cZI_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_cZI_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_cZI_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_cZI_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_cZI_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_cZI_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fct_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fct_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fct_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fct_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fct_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fct_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fct_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fct_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fl_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fl_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fl_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fl_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fl_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fl_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_fl_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_fl_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ft_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ft_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ft_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ft_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ft_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ft_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ft_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ft_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hf_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hf_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hf_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hf_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hf_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hf_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hf_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hf_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hfields_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hfields_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hfields_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hfields_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hfields_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hfields_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_hfields_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_hfields_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ml_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ml_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ml_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ml_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ml_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ml_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_ml_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_ml_R_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_rZI_L_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_rZI_L_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_rZI_L_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_rZI_L_prob.nii.gz.nii.gz
+antsApplyTransforms -d 3 -i /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_rZI_R_prob.nii.gz -o ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_rZI_R_prob.nii.gz.nii.gz -r /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz -t transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz transforms/snsx32-to-icbm2009b.txt -n Linear
+Using double precision for computations.
+Input scalar image: /scratch/jclau/zona_OSF/OSF/SNSX32NLin2020Asym//prob//sub-SNSX32NLin2020Asym_rZI_R_prob.nii.gz
+Reference image: /scratch/jclau/zona_OSF/OSF_sandbox/snsx32_to_MNI2009b/input_snsx32/sub-MNI2009b_T1w.nii.gz
+=============================================================================
+The composite transform comprises the following transforms (in order): 
+  1. transforms/snsx32-to-icbm2009b.txt (type = MatrixOffsetTransformBase)
+  2. transforms/snsx32-to-icbm2009Asym-T1w0Warp.nii.gz (type = DisplacementFieldTransform)
+=============================================================================
+Default pixel value: 0
+Interpolation type: LinearInterpolateImageFunction
+Output warped image: ./output_snsx32_to_MNI2009b//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym/prob//SNSX32NLin2020Asym_space-MNI152NLin2009bAsym_rZI_R_prob.nii.gz.nii.gz
